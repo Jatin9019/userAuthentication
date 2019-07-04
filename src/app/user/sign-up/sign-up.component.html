@@ -1,5 +1,5 @@
 <div>
-  <img src="/assets/IMG/users.png" id="icon" alt="User Icon" />
+  <img src="assets/IMG/users.png" id="icon" alt="User Icon" />
 </div>
 <form #signUpForm="ngForm" (ngSubmit)="signUpForm.valid && onSubmit(signUpForm)"> 
     <input type="text" #fullname="ngModel" [(ngModel)]="userService.selecteduser.fullname" name="fullname" placeholder="Full Name"
